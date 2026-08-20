@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: campdemo
+    runtime: node
+    plan: free
+    branch: main
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NOTIFICATIONS_SERVICE_URL
+        value: https://booking-api.rear.ro
+      - key: NOTIFICATIONS_SERVICE_API_KEY
+        sync: false
