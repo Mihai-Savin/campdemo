@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Camping Brazesti Apuseni — pagina demo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="logo">
+      <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 3 L21 20 H3 Z" fill="#317900"/>
+        <path d="M12 3 L16.5 20 H7.5 Z" fill="#5aa300"/>
+        <rect x="10.5" y="20" width="3" height="1.6" fill="#8a5a2b"/>
+      </svg>
+      <span class="logo-text">CampDemo</span>
+    </div>
+    <nav class="main-nav">
+      <a href="#facilitati">Facilități</a>
+      <a href="#contact">Contact</a>
+      <span class="demo-badge">Pagină demonstrativă</span>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <h1 class="page-title">Camping Brazesti Apuseni</h1>
+  <p class="breadcrumb">
+    Camping în
+    <a href="#">Transilvania</a> / <a href="#">Alba</a> / <a href="#">Brazesti</a>
+  </p>
+
+  <div class="gallery">
+    <div class="gallery-img gallery-1" role="img" aria-label="Zonă de relaxare cu piscină"></div>
+    <div class="gallery-img gallery-2" role="img" aria-label="Vedere aeriană a campingului"></div>
+    <div class="gallery-img gallery-3" role="img" aria-label="Umbrele pe malul apei"></div>
+  </div>
+
+  <div class="content-row">
+    <div class="content-main">
+      <section>
+        <h2 class="subtitle">Descriere campare</h2>
+        <p>
+          Destinație pentru rulote, corturi și cazare în camere de vilă, chiar la poalele Apusenilor. Câteva
+          facilități utile pentru sejurul tău:
+        </p>
+        <ul class="check-list">
+          <li>Parcele campare/rulote full service: electricitate, apă potabilă și golire apă gri direct la parcelă.</li>
+          <li>Zonă corturi cu umbră naturală, pe malul râului.</li>
+          <li>Piscină încălzită și dușuri cu apă caldă non-stop.</li>
+          <li>Spațiu sigur pentru copii și relaxare pentru părinți.</li>
+          <li>Acces facil, intrare directă din drumul național.</li>
+        </ul>
+        <p>Locație bună pentru explorarea zonei din apropiere. Te așteptăm pentru o experiență fără compromisuri.</p>
+      </section>
+
+      <section>
+        <h2 class="subtitle">Acces în camping</h2>
+        <div class="tag-list">
+          <span class="tag">Mașină</span>
+          <span class="tag">Rulotă</span>
+        </div>
+      </section>
+
+      <section id="facilitati">
+        <h2 class="subtitle">Facilități camping</h2>
+        <div class="tag-list">
+          <span class="tag">Apă</span>
+          <span class="tag">Apă caldă</span>
+          <span class="tag">Wc</span>
+          <span class="tag">Dușuri</span>
+          <span class="tag">Curent</span>
+          <span class="tag">Bucătărie</span>
+          <span class="tag">Restaurant</span>
+          <span class="tag">Magazin</span>
+          <span class="tag">Animal companie</span>
+          <span class="tag">Curent rulotă</span>
+          <span class="tag">Golire casetă rulotă</span>
+        </div>
+        <p class="fine-print">* Pentru prețuri actualizate contactați campingul.</p>
+      </section>
+    </div>
+
+    <aside class="content-side" id="contact">
+      <h2 class="subtitle">Contact camping</h2>
+      <div class="contact-buttons">
+        <a href="tel:0740000000" class="btn btn-green">
+          <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.3 1L6.6 10.8z" fill="currentColor"/></svg>
+          Telefon
+        </a>
+        <button type="button" class="btn btn-green" id="openBookingModal">
+          <svg viewBox="0 0 24 24"><path d="M7 2v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2V2h-2v2H9V2H7zM5 9h14v11H5V9zm4 3h2v2H9v-2z" fill="currentColor"/></svg>
+          Solicită rezervare
+        </button>
+        <a href="#" class="btn btn-green">
+          <svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z" fill="currentColor"/></svg>
+          Obțineți indicații de acces
+        </a>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <div class="logo logo-footer">
+        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 3 L21 20 H3 Z" fill="#5aa300"/>
+          <path d="M12 3 L16.5 20 H7.5 Z" fill="#8fd13f"/>
+        </svg>
+        <span class="logo-text">CampDemo</span>
+      </div>
+      <p class="footer-note">Pagină demonstrativă inspirată de stilul unui site de listare campinguri, folosită
+      pentru a demonstra fluxul de solicitare rezervare.</p>
+    </div>
+    <div>
+      <h3>Despre</h3>
+      <p>Despre noi</p>
+      <p>Termeni &amp; condiții</p>
+    </div>
+    <div>
+      <h3>Ține legătura</h3>
+      <p>Facebook</p>
+      <p>Instagram</p>
+    </div>
+  </div>
+  <p class="footer-copy">CampDemo &copy; 2026 — demo tehnic, nu reprezintă un serviciu real.</p>
+</footer>
+
+<div class="modal-overlay" id="bookingModal">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button type="button" class="modal-close" id="closeBookingModal" aria-label="Închide">&times;</button>
+
+    <div id="modalFormView">
+      <h2 id="modalTitle">Solicită rezervare</h2>
+      <p class="modal-sub">Camping Brazesti Apuseni</p>
+
+      <form id="bookingForm">
+        <div class="field">
+          <label for="nume">Nume *</label>
+          <input type="text" id="nume" name="nume" required autocomplete="name">
+        </div>
+
+        <div class="field">
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" required autocomplete="email">
+        </div>
+
+        <div class="field">
+          <label for="telefon">Telefon <span class="optional">(opțional, pentru confirmare via SMS)</span></label>
+          <input type="tel" id="telefon" name="telefon" autocomplete="tel" placeholder="+40 7xx xxx xxx">
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="sosire">Sosire *</label>
+            <input type="date" id="sosire" name="sosire" required>
+          </div>
+          <div class="field">
+            <label for="plecare">Plecare *</label>
+            <input type="date" id="plecare" name="plecare" required>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="oaspeti">Număr de oaspeți *</label>
+          <input type="number" id="oaspeti" name="oaspeti" min="1" value="2" required>
+        </div>
+
+        <div class="field">
+          <label for="observatii">Observații <span class="optional">(opțional)</span></label>
+          <textarea id="observatii" name="observatii" rows="3" placeholder="Ex: sosire seara târziu, animal de companie, etc."></textarea>
+        </div>
+
+        <p class="form-error" id="formError" hidden></p>
+
+        <div class="modal-actions">
+          <button type="button" class="btn btn-ghost" id="cancelBooking">Anulează</button>
+          <button type="submit" class="btn btn-green" id="submitBooking">Trimite solicitarea</button>
+        </div>
+      </form>
+    </div>
+
+    <div id="modalResultView" hidden>
+      <div id="resultIcon" class="result-icon"></div>
+      <h2 id="resultTitle"></h2>
+      <p id="resultSub" class="modal-sub"></p>
+      <ul id="resultList" class="result-list"></ul>
+      <div class="modal-actions">
+        <button type="button" class="btn btn-green" id="closeResult">Închide</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
